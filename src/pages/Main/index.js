@@ -2,7 +2,8 @@
 // Importando Styled Components
 import { Container, Form, SubmitButton, List } from './styles';
 
-import { FaGithub, FaPlus, FaSpinner, FaExternalLinkAlt, FaSearch, FaTrashAlt } from 'react-icons/fa';
+import { FaPlus, FaSpinner, FaExternalLinkAlt, FaSearch, FaTrashAlt } from 'react-icons/fa';
+import { FiGithub } from 'react-icons/fi';
 
 import { useCallback, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
@@ -96,7 +97,7 @@ export default function Main(){
    return(
       <Container>
          <h1>
-            <FaGithub size={24} />
+            <FiGithub size={24} />
             Meus Repositórios
          </h1>
 
